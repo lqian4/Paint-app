@@ -3,7 +3,7 @@ var httpd = require('http').createServer(handler);
 var io = require('socket.io').listen(httpd);
 var fs = require('fs');
 var db = require('./db');
-httpd.listen(4000);
+httpd.listen(process.env.PORT || 4000);
 
 function handler(req,res) {
     fs.readFile(__dirname+'/static/'+(req.url==='/'?'index.html':req.url),
