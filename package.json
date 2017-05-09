@@ -1,0 +1,23 @@
+{
+  "name": "paintapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "db.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lqian4/Paint-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lqian4/Paint-app/issues"
+  },
+  "homepage": "https://github.com/lqian4/Paint-app#readme",
+  "dependencies": {
+    "socket.io": "^2.0.1"
+  }
+}
